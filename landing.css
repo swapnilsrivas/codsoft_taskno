@@ -1,0 +1,81 @@
+.navbar {
+  background-color: #080808;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+.navbar-nav > li:last-child {
+  margin-right: 0;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0;
+}
+
+body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	line-height: 1.6;
+  background-image: url(wp4511397.webp); 
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 80%; /* adjust the width as needed */
+	margin: 130px auto; /* add some margin to center the container */
+	padding: 20px;
+	background-color:#ddd ; /* add a light gray background */
+	border: 0px solid #ddd; /* add a border */
+	border-radius: 10px; /* add some rounded corners */
+}
+
+.text {
+	flex: 1;
+	padding: 10px;
+	margin-top: 108px;
+	text-align: center; /* center the text horizontally */
+}
+
+.image {
+	flex: 1;
+	padding: 20px;
+	text-align: center; /* center the image */
+}
+
+.image img {
+	width: 100%; /* make the image take up the full width */
+	height: auto; /* maintain the aspect ratio */
+	border-radius: 10px; /* add some rounded corners to the image */
+}
